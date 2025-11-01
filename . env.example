@@ -1,0 +1,7 @@
+PORT=4000
+MONGO_URI=mongodb://localhost:27017/ibm_jwt_demo
+ACCESS_TOKEN_SECRET=change_this_access_secret
+REFRESH_TOKEN_SECRET=change_this_refresh_secret
+ACCESS_TOKEN_EXPIRES_IN=15m     # access token short expiry
+REFRESH_TOKEN_EXPIRES_IN=7d     # refresh token long expiry
+COOKIE_SECURE=false             # set true in prod (HTTPS)
